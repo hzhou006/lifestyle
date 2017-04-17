@@ -1,0 +1,54 @@
+body{
+    font-family: 'Open Sans', Arial, Tahoma;
+    font-weight: 400;
+    font-size: 1em;
+    color: #363636;
+    max-height: 3700px;
+}
+
+.container {
+    min-width: 1170px;
+}
+
+
+
+#hobby-animation.container{
+    font-family: 'Open Sans', Arial, Tahoma;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #363636;
+}
+.bs-callout{
+    padding: 5px;
+	width: 364px;
+    margin: 20px 0px 0px 0px;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+	border-right-width: 5px;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+    border-radius: 10px;
+	border-top-color: #EC7263;
+	border-bottom-color: #EC7263;
+	border-right-color: #EC7263;
+    border-left-color: #EC7263;
+    background: #DDD;
+    opacity: 0.7;
+}
+
+
+#overlay {
+    position: relative;
+    top: -240px;
+	
+}
+
+#hobby-animation {
+    position: relative;
+    top: 0px;
+}
+
+#resume{
+    position: relative;
+    top: -250px;
+}

@@ -1,0 +1,23 @@
+#brush-control svg {
+    font: 12px sans-serif;
+    color: #777;
+}
+
+#brush-control path {
+    -webkit-transition: fill-opacity 250ms linear;
+}
+
+#brush-control .selecting path {
+    fill-opacity: .2;
+}
+
+#brush-control .selecting path.selected {
+    stroke: #f00;
+    stroke-width: 2px;
+}
+
+#brush-control .brush .extent {
+    stroke: #ddd;
+    fill-opacity: 0;
+    shape-rendering: crispEdges;
+}
